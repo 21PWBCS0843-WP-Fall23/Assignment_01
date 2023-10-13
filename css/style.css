@@ -1,0 +1,345 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+}
+/* style navigaiton bar styling */
+.style_none{
+    list-style: none;
+}
+.my_name{
+    margin-top: -5px;
+    color: #eaeced;
+    padding-left: 10px;
+}
+.nav_container{
+    display : flex ;
+    justify-content: space-between;
+    background-color: #454545;
+    padding-top: 10px;
+}
+.nav_item {
+    display: flex;
+    margin: 0;
+    
+}
+nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    color: #eaeced;
+    font-weight: bold;
+    font-size: large;
+}
+a:hover{
+    color: rgb(21, 197, 88);
+    /* box-shadow: 0px 1px 1px 0.8px; */
+    border-bottom: 2px solid hsl(0, 0%, 98%);
+}
+/* background image designing */
+.header_class{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(../image/bg_image_1.jpg);
+    height: 84vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    /* border-radius: 120px;
+    margin: auto;
+    display: block;
+    */
+}
+.profile_image img{
+    padding-top: 20px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+   
+}
+.greeting_class{
+    text-align: center;
+    padding-top: 3rem;
+    color: #eaeced;
+    padding-top: 10px;
+
+}
+.greeting_message{
+    color: #eaeced;
+    
+}
+/* main {
+    padding: 20px;
+} */
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+/* for stories designing */
+.stories_image{
+    padding-left: 20px;
+}
+.description{
+    font-family: Helvetica  ;
+    font-style: italic;
+}
+p {
+    font-size: 16px;
+    line-height: 24px;
+}
+/* Footer Style */
+footer {
+    background-color: #ccc;
+    padding: 0.1px;
+    text-align: center;
+}
+.about_me{
+    text-align: center;
+    font-size: 35px;
+    background-color: #a29e9e;
+}
+/* contact styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    height: 200px;
+  }
+  
+  input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  
+  /* Additional information styling */
+  
+  .additional-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .additional-information input {
+    width: 45%;
+  }
+  
+  /* Unique styling */
+  
+  form {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  input, textarea {
+    transition: border 0.2s ease-in-out;
+  }
+  
+  input:focus, textarea:focus {
+    border: 1px solid #000;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #333;
+  }
+  /* my personnel information */
+  .contact-information {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-information p {
+    margin-bottom: 10px;
+  }
+  
+  .contact-information a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .contact-information a:hover {
+    color: #333;
+  }
+  .contact-information {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+  }
+  /* destination designing */
+  header {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  .swat_destination_guide{
+    text-align: center;
+    background-color: #a29e9e;
+  }
+  /* .background_colour_destination{
+    background-color: #a29e9e;
+  }
+  .destination_header{
+    background-color: rgb(232, 232, 177);
+    text-align: center;
+  } */
+  .background_colour_destination {
+    background-color: #c6b5b5;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 960px;
+  }
+  
+  .destination_header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .local_tips {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 960px;
+  }
+  
+  .local_tips_header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+
+  /* photo section */
+
+  .photo-section {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .photo-item {
+    position: relative;
+  }
+  
+  .photo-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .photo-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .photo-item:hover::after {
+    opacity: 1;
+  }
+  
+  .photo-item:hover .photo-item-caption {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .photo-item-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
